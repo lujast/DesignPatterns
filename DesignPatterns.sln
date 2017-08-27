@@ -3,8 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01CreationalPatterns", "01CreationalPatterns", "{6FA01A82-EE26-43EA-83EE-8919FF67C2E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03BehavioralPatterns", "03BehavioralPatterns", "{21AB1D66-01F9-4939-B817-27A1229387A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02StructuralPatterns", "02StructuralPatterns", "{E129E675-6C77-4264-8F93-A0236698A621}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Adapter", "DesignPatterns.Adapter\DesignPatterns.Adapter.csproj", "{3BC9B7F2-CD82-48A8-88F4-4530E3ACD6B7}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BC9B7F2-CD82-48A8-88F4-4530E3ACD6B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BC9B7F2-CD82-48A8-88F4-4530E3ACD6B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BC9B7F2-CD82-48A8-88F4-4530E3ACD6B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BC9B7F2-CD82-48A8-88F4-4530E3ACD6B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3BC9B7F2-CD82-48A8-88F4-4530E3ACD6B7} = {E129E675-6C77-4264-8F93-A0236698A621}
 	EndGlobalSection
 EndGlobal
