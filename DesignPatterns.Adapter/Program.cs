@@ -10,6 +10,12 @@ namespace DesignPatterns.Adapter
     {
         static void Main(string[] args)
         {
+
+            Target target = new Target();
+            Target targetUsingAdapter = new Adapter();
+            target.Request();
+            targetUsingAdapter.Request();
+
         }
     }
 }
