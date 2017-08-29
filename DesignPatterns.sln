@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.CompositeExa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Decorator", "DesignPatterns.Decorator\DesignPatterns.Decorator.csproj", "{71A74864-3C51-4C1B-9544-A4A74B0FCA8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.DecoratorExample", "DesignPatterns.DecoratorExample\DesignPatterns.DecoratorExample.csproj", "{C7F2147D-4EA9-4299-A600-C9E7244A9F43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Facade", "DesignPatterns.Facade\DesignPatterns.Facade.csproj", "{1E9D0F5A-37C8-4AE7-A63F-BAC150DD35D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{71A74864-3C51-4C1B-9544-A4A74B0FCA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71A74864-3C51-4C1B-9544-A4A74B0FCA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71A74864-3C51-4C1B-9544-A4A74B0FCA8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7F2147D-4EA9-4299-A600-C9E7244A9F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7F2147D-4EA9-4299-A600-C9E7244A9F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7F2147D-4EA9-4299-A600-C9E7244A9F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7F2147D-4EA9-4299-A600-C9E7244A9F43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E9D0F5A-37C8-4AE7-A63F-BAC150DD35D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E9D0F5A-37C8-4AE7-A63F-BAC150DD35D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E9D0F5A-37C8-4AE7-A63F-BAC150DD35D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E9D0F5A-37C8-4AE7-A63F-BAC150DD35D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,5 +81,7 @@ Global
 		{C89170E9-F799-4E90-82BC-0B5E30A38C00} = {E129E675-6C77-4264-8F93-A0236698A621}
 		{8B5DD6A0-3AC7-4F49-BED3-07CDE09C9522} = {E129E675-6C77-4264-8F93-A0236698A621}
 		{71A74864-3C51-4C1B-9544-A4A74B0FCA8D} = {E129E675-6C77-4264-8F93-A0236698A621}
+		{C7F2147D-4EA9-4299-A600-C9E7244A9F43} = {E129E675-6C77-4264-8F93-A0236698A621}
+		{1E9D0F5A-37C8-4AE7-A63F-BAC150DD35D1} = {E129E675-6C77-4264-8F93-A0236698A621}
 	EndGlobalSection
 EndGlobal
