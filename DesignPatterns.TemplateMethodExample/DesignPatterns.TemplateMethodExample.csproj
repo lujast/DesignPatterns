@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3DDB9ECC-7DAC-4DD1-B3DD-18C122DB951C}</ProjectGuid>
+    <ProjectGuid>{B6CC501A-2D11-4BC9-BCF4-73F7623B6AFD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DesignPatterns.Flyweight</RootNamespace>
-    <AssemblyName>DesignPatterns.Flyweight</AssemblyName>
+    <RootNamespace>DesignPatterns.TemplateMethodExample</RootNamespace>
+    <AssemblyName>DesignPatterns.TemplateMethodExample</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,13 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConcreteFlyweight.cs" />
-    <Compile Include="ExtrinsicState.cs" />
-    <Compile Include="FlyweightManager.cs" />
-    <Compile Include="IFlyweight.cs" />
-    <Compile Include="IntrinsicState.cs" />
+    <Compile Include="AbstractBattleGeneral.cs" />
+    <Compile Include="BattleResult.cs" />
+    <Compile Include="CastleConqueror.cs" />
+    <Compile Include="FieldGeneral.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeaAdmiral.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
